@@ -55,4 +55,4 @@ To compile and run the program, follow these steps:
 
 ## License :scroll:
 
-This program is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute it according to the terms of the license. :balance_scale:
+This program is released under the [MIT License](https://github.com/jensbouma/rand42/blob/master/LICENSE). Feel free to modify and distribute it according to the terms of the license. :balance_scale:
