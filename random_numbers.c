@@ -34,25 +34,13 @@ int	rand42(void)
  */
 int	main(void)
 {
-	int	i;
 	int	list[10];
-	int	test;
 
-	i = 0;
-	while (i < 9)
-		list[i++] = 0;
-	i = 0;
-	while (i < 100000)
-	{
-		test = rand42();
-		list[test]++;
-		i++;
-	}
-	i = 0;
-	while (i < 9)
-	{
+	for (int i = 0; i < 10; i++)
+		list[i] = 0;
+	for (int i = 0; i < 2; i++)
+		list[rand42()]++;
+	for (int i = 0; i < 10; i++)
 		printf("list[%d]: %d\n", i, list[i]);
-		i++;
-	}
 	return (EXIT_SUCCESS);
 }
