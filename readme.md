@@ -1,41 +1,41 @@
-# Random Number Generator Program
+# Random Number Generator Program :1234:
 
-This program generates random numbers and counts their occurrences in a list.
+This program generates random numbers and counts their occurrences in a list. :game_die:
 
-## Table of Contents
+## Table of Contents :bookmark_tabs:
 
-- [Random Number Generator Program](#random-number-generator-program)
-	- [Table of Contents](#table-of-contents)
-	- [Description](#description)
-	- [Usage](#usage)
-	- [Prerequisites](#prerequisites)
-	- [Installation](#installation)
-	- [Running the Program](#running-the-program)
-	- [License](#license)
+- [Random Number Generator Program :1234:](#random-number-generator-program-1234)
+	- [Table of Contents :bookmark\_tabs:](#table-of-contents-bookmark_tabs)
+	- [Description :page\_with\_curl:](#description-page_with_curl)
+	- [Usage :computer:](#usage-computer)
+	- [Prerequisites :memo:](#prerequisites-memo)
+	- [Installation :floppy\_disk:](#installation-floppy_disk)
+	- [Running the Program :arrow\_forward:](#running-the-program-arrow_forward)
+	- [License :scroll:](#license-scroll)
 
-## Description
+## Description :page_with_curl:
 
-This program generates random numbers using a custom random number generator algorithm and counts the occurrences of each number in a list. It uses the C programming language and relies on the standard libraries `stdio.h`, `stdlib.h`, and `time.h`.
+This program generates random numbers using a custom random number generator algorithm and counts the occurrences of each number in a list. :arrows_counterclockwise:
 
-The algorithm for generating random numbers involves performing arithmetic operations on a static variable `rnd` and a variable `rnd2`. The program measures the execution time of the random number generation using the `clock()` function. The generated random numbers are then stored in an array, and the count of each number is maintained.
+The algorithm for generating random numbers involves performing arithmetic operations on a static variable `rnd` and a variable `rnd2`. The program measures the execution time of the random number generation using the `clock()` function. The generated random numbers are then stored in an array, and the count of each number is maintained. :1234:
 
-## Usage
+## Usage :computer:
 
-The program can be used to simulate the generation of random numbers and observe their distribution in the generated list.
+The program can be used to simulate the generation of random numbers and observe their distribution in the generated list. :bar_chart:
 
-## Prerequisites
+## Prerequisites :memo:
 
 To compile and run this program, you need the following:
 
 - A C compiler that supports C99 or later.
 - Standard C libraries (`stdio.h`, `stdlib.h`, and `time.h`).
 
-## Installation
+## Installation :floppy_disk:
 
 1. Download the source code file containing the program.
 2. Save the file with a `.c` extension, for example, `random_numbers.c`.
 
-## Running the Program
+## Running the Program :arrow_forward:
 
 To compile and run the program, follow these steps:
 
@@ -50,8 +50,8 @@ To compile and run the program, follow these steps:
    ```
    ./random_numbers
    ```
-   The program will generate random numbers, count their occurrences, and display the result in the terminal.
+   The program will generate random numbers, count their occurrences, and display the result in the terminal. :chart_with_upwards_trend:
 
-## License
+## License :scroll:
 
-This program is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute it according to the terms of the license.
+This program is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute it according to the terms of the license. :balance_scale:
