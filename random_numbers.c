@@ -18,8 +18,8 @@ int	rand42(void)
 	rnd += 42;
 	rnd2 = 42;
 	start = clock();
-	while (i++ < rnd * 1000000)
-		rnd2 *= rnd2;
+	while (i++ < rnd * 10000000)
+		rnd2 *= rnd;
 	end = clock();
 	rnd = (((int)(end - start * rnd2)));
 	while (rnd > 9)
