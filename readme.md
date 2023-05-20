@@ -12,7 +12,7 @@ This program generates random numbers and counts their occurrences in a list. :g
 	- [Prerequisites :memo:](#prerequisites-memo)
 	- [Installation :floppy\_disk:](#installation-floppy_disk)
 	- [Running the Program :arrow\_forward:](#running-the-program-arrow_forward)
-	- [But is it random :question:](#But is it random? :question:)
+	- [But is it random :question:](#but-is-it-random-question)
 	- [License :scroll:](#license-scroll)
 
 ## Description :page_with_curl:
