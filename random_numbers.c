@@ -38,7 +38,7 @@ int	main(void)
 
 	for (int i = 0; i < 10; i++)
 		list[i] = 0;
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 10000; i++)
 		list[rand42()]++;
 	for (int i = 0; i < 10; i++)
 		printf("list[%d]: %d\n", i, list[i]);
