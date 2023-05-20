@@ -7,9 +7,9 @@
  * 
  * @return int 
  */
-int	rnd42(void)
+int	rand42(void)
 {
-	static clock_t 	rnd = 0;
+	static clock_t	rnd = 0;
 	int				rnd2;
 	clock_t			start;
 	clock_t			end;
@@ -38,13 +38,15 @@ int	main(void)
 	int	list[10];
 	int	test;
 
+	i = 0;
 	while (i < 9)
 		list[i++] = 0;
 	i = 0;
-	while (i++ < 100000)
+	while (i < 100000)
 	{
-		test = rnd42();
+		test = rand42();
 		list[test]++;
+		i++;
 	}
 	i = 0;
 	while (i < 9)
