@@ -1,4 +1,4 @@
-[![C/C++ CI](https://github.com/jensbouma/Codam-so_long/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/jensbouma/Codam-so_long/actions/workflows/c-cpp.yml)
+[![C/C++ CI](https://github.com/jensbouma/rand42/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/jensbouma/rand42/actions/workflows/c-cpp.yml)
 # Random Number Generator Program :1234:
 
 This program generates random numbers and counts their occurrences in a list. :game_die:
