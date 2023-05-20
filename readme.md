@@ -12,7 +12,7 @@ This program generates random numbers and counts their occurrences in a list. :g
 	- [Prerequisites :memo:](#prerequisites-memo)
 	- [Installation :floppy\_disk:](#installation-floppy_disk)
 	- [Running the Program :arrow\_forward:](#running-the-program-arrow_forward)
-	- [## But is it random? ❓](#But is it random? ❓)
+	- [But is it random? :question:](#But is it random? :question:)
 	- [License :scroll:](#license-scroll)
 
 ## Description :page_with_curl:
@@ -53,7 +53,7 @@ To compile and run the program, follow these steps:
    ./random_numbers
    ```
    The program will generate random numbers, count their occurrences, and display the result in the terminal. :chart_with_upwards_trend:
-## But is it random? ❓
+## But is it random? :question:
 
 Random generators, despite their name, are not truly random. They operate based on algorithms or predefined patterns, producing sequences that appear random but are actually deterministic. These generators use initial values known as seeds, and given the same seed, they will always produce the same sequence of numbers. Therefore, they are considered pseudorandom. To achieve true randomness, external factors like atmospheric noise or radioactive decay must be incorporated into the generation process.
 
