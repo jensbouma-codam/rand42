@@ -52,6 +52,11 @@ To compile and run the program, follow these steps:
    ./random_numbers
    ```
    The program will generate random numbers, count their occurrences, and display the result in the terminal. :chart_with_upwards_trend:
+## But is it random?
+
+Random generators, despite their name, are not truly random. They operate based on algorithms or predefined patterns, producing sequences that appear random but are actually deterministic. These generators use initial values known as seeds, and given the same seed, they will always produce the same sequence of numbers. Therefore, they are considered pseudorandom. To achieve true randomness, external factors like atmospheric noise or radioactive decay must be incorporated into the generation process.
+
+Processing time can sometimes be a factor in random generation. The speed at which a random generator produces numbers can impact the perceived randomness of the generated sequence. If a generator is too fast, it may not have enough time to gather sufficient entropy or adequately mix the generated numbers, potentially leading to patterns or predictability. On the other hand, if a generator is too slow, it may introduce biases or delays that can affect the randomness of the output. Therefore, finding an appropriate balance between processing time and generating high-quality random numbers is crucial for achieving reliable randomness.
 
 ## License :scroll:
 
